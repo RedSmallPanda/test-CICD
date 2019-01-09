@@ -26,7 +26,6 @@ public class LoginRegisterController {
     public void login(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setHeader("Content-type", "application/json;charset=UTF-8");
         PrintWriter out = response.getWriter();
-
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
