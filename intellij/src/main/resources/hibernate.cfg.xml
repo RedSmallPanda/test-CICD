@@ -5,7 +5,7 @@
 <hibernate-configuration>
     <session-factory>
         <!--<property name="connection.url">jdbc:mysql://localhost:3306/jpw</property>-->
-        <property name="connection.url">jdbc:mysql://test-mysql:3306/jpw</property>
+        <property name="connection.url">jdbc:mysql://118.25.192.159:30159/jpw</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <mapping class="com.sjtu.jpw.Domain.User"/>
         <!-- <property name="connection.username"/> -->
