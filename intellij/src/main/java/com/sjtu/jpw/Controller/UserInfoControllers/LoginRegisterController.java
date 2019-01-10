@@ -30,7 +30,6 @@ public class LoginRegisterController {
         String password = request.getParameter("password");
 
         List<User> me = userService.login(username, password);
-
         if (me.size() == 0) {
             System.out.println("[JPW USER  F] -" + username + "- login with password -" + password + "-");
             out.print("null");
